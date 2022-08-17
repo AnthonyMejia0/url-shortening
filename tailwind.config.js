@@ -12,6 +12,9 @@ module.exports = {
         "very-dark-blue": "#35323e",
         "very-dark-violet": "#232127",
       },
+      screens: {
+        "3xl": "1800px",
+      },
     },
   },
   plugins: [],
