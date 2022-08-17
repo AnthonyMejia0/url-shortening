@@ -21,7 +21,7 @@ function Hero() {
             Build your brand's recognition and get detailed insights on how your
             links are performing.
           </p>
-          <button className="text-white font-bold bg-cyan mt-5 py-2 px-12 rounded-full hover:opacity-50">
+          <button className="button-hover text-white font-bold bg-cyan mt-5 py-2 px-12 rounded-full">
             Get Started
           </button>
         </div>

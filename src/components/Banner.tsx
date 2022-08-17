@@ -15,7 +15,7 @@ function Banner() {
         alt="Boost Banner"
       />
       <h2 className="text-2xl md:text-4xl z-10">Boost your links today</h2>
-      <button className="z-10 bg-cyan py-2 px-11 rounded-full hover:opacity-80">
+      <button className="button-hover z-10 bg-cyan py-2 px-11 rounded-full">
         Get Started
       </button>
     </div>
