@@ -12,7 +12,7 @@ function Statistics() {
         <br className="hidden lg:inline" /> our advanced statistics dashboard.
       </p>
 
-      <div className="relative flex flex-col items-center w-screen justify-center lg:flex-row lg:space-x-7  space-y-20 mt-0">
+      <div className="relative flex flex-col items-center w-screen justify-center lg:flex-row lg:space-x-7 space-y-20 lg:space-y-0 mt-5">
         <div className="lg:hidden absolute h-[90%] w-[10px] bg-cyan bottom-0 left-1/2 -translate-x-1/2"></div>
         <div className="hidden lg:inline absolute h-[10px] w-[25%] bg-cyan bottom-[40%] left-1/2 -translate-x-1/2"></div>
 
