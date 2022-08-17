@@ -20,7 +20,7 @@ function Navbar() {
       {/* Right Side */}
       <div className="flex items-center space-x-5">
         <p className="hidden xl:inline nav-link">Login</p>
-        <button className="hidden xl:inline text-white bg-cyan py-1 px-4 rounded-full text-sm hover:opacity-50">
+        <button className="button-hover hidden xl:inline text-white bg-cyan py-1 px-4 rounded-full text-sm">
           Sign Up
         </button>
         <button
