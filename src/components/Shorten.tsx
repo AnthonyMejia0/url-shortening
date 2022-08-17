@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 
 function Shorten() {
+  //GET/POST: https://api.shrtco.de/v2/shorten?url=example.org/very/long/link.html
   const [link, setLink] = useState("");
+  const shortURL = "https://api.shrtco.de/v2/shorten?url=";
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Link >>", link);
+    fetch(`${shortURL}${link}`)
+      .then(async (response) => {
+        const shortResponse = await response.json();
+        console.log("RESPONSE >>", shortResponse);
+      })
+      .catch((err) => console.error(err));
     setLink("");
   };
 
@@ -20,7 +28,7 @@ function Shorten() {
             onChange={(e) => setLink(e.target.value)}
             value={link}
           />
-          <button className="text-white font-black bg-cyan py-2 px-10 rounded-lg hover:opacity-80 w-full">
+          <button className="button-hover text-white font-black bg-cyan py-2 px-10 rounded-lg w-full">
             Shorten It!
           </button>
         </form>
