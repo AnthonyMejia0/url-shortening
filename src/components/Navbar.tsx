@@ -6,7 +6,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="relative bg-white flex justify-between h-min px-8 xl:px-36 pt-10 pb-5">
+    <div className="relative bg-white flex justify-between h-min px-8 xl:px-24 2xl:px-40 3xl:px-[19.75rem] pt-10 pb-5">
       {/* Left Side */}
       <div className="flex items-center space-x-10">
         <img className="xl:w-24 cursor-pointer" src={Logo} alt="Shortly Logo" />

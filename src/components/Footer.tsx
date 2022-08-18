@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Footer() {
   return (
-    <div className="bg-very-dark-violet text-white flex flex-col lg:flex-row justify-center lg:justify-evenly items-center lg:items-start w-screen pt-10 lg:pb-20 lg:px-16">
+    <div className="bg-very-dark-violet text-white flex flex-col lg:flex-row justify-center lg:justify-evenly items-center lg:items-start w-screen pt-10 lg:pb-20 lg:px-10 2xl:px-20 3xl:px-32">
       <div className="lg:flex lg:justify-start lg:w-56">
         <img src={Logo} alt="Shortly Logo" />
       </div>

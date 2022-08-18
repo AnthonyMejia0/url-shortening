@@ -5,16 +5,16 @@ import FullyCustomizable from "../images/icon-fully-customizable.svg";
 
 function Statistics() {
   return (
-    <div className="mt-40 mb-10 w-screen">
+    <div className="mt-24 mb-10 w-screen">
       <h3 className="font-bold text-2xl text-center">Advanced Statistics</h3>
       <p className="text-gray mt-4 text-center px-10">
         Track how your links are performing across the web with{" "}
         <br className="hidden lg:inline" /> our advanced statistics dashboard.
       </p>
 
-      <div className="relative flex flex-col items-center w-screen justify-center lg:flex-row lg:space-x-7 space-y-20 lg:space-y-0 mt-5">
-        <div className="lg:hidden absolute h-[90%] w-[10px] bg-cyan bottom-0 left-1/2 -translate-x-1/2"></div>
-        <div className="hidden lg:inline absolute h-[10px] w-[25%] bg-cyan bottom-[40%] left-1/2 -translate-x-1/2"></div>
+      <div className="relative flex flex-col items-center w-screen justify-center xl:flex-row xl:space-x-4 space-y-20 xl:space-y-0 mt-5">
+        <div className="xl:hidden absolute h-[90%] w-[10px] bg-cyan bottom-0 left-1/2 -translate-x-1/2"></div>
+        <div className="hidden xl:inline absolute h-[10px] xl:w-[50rem] bg-cyan bottom-[40%] left-1/2 -translate-x-1/2"></div>
 
         <StatCard
           icon={BrandRecognition}
@@ -23,7 +23,7 @@ function Statistics() {
           a thing. Branded links help intstil confidence in your content."
         />
 
-        <div className="lg:pt-16">
+        <div className="xl:pt-16">
           <StatCard
             icon={DetailedRecords}
             title="Detailed Records"
@@ -32,7 +32,7 @@ function Statistics() {
           />
         </div>
 
-        <div className="lg:pt-32">
+        <div className="xl:pt-32">
           <StatCard
             icon={FullyCustomizable}
             title="Fully Customizable"
